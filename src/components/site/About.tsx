@@ -1,4 +1,4 @@
-import celebratingImage from "@/assets/About-Nonyameko.jpg";
+import celebratingImage from "@/assets/nonyameko.jpg";
 
 export function About() {
   return (
