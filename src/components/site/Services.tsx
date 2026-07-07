@@ -28,7 +28,7 @@ export function Services() {
                   width={800}
                   height={800}
                   loading="lazy"
-                  className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="aspect-[4/4] w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
               <div className="p-6">

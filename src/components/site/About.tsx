@@ -1,4 +1,4 @@
-import celebratingImage from "@/assets/nonyameko-celebrating.png.asset.json";
+import celebratingImage from "@/assets/About-Nonyameko.jpg";
 
 export function About() {
   return (
@@ -7,7 +7,7 @@ export function About() {
         <div className="relative mx-auto w-fit">
           <div className="absolute -inset-3 rounded-[2.25rem] bg-gold/15 blur-xl" />
           <img
-            src={celebratingImage.url}
+            src={celebratingImage}
             alt="Nonyameko, founder of Styled By Mama Bear"
             width={1024}
             height={1280}

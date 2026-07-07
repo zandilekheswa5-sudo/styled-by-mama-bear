@@ -1,22 +1,23 @@
-import knotlessNew from "@/assets/knotless-braids-v2.png.asset.json";
-import boxNew from "@/assets/box-braids-v2.png.asset.json";
-import cornrowsNew from "@/assets/cornrows-v2.png.asset.json";
-import stitchNew from "@/assets/stitch-braids-v2.png.asset.json";
-import fulaniNew from "@/assets/fulani-braids-v2.png.asset.json";
-import goddessNew from "@/assets/goddess-braids-v2.png.asset.json";
-import kidsNew from "@/assets/kids-braids-v2.png.asset.json";
-import butterflyLocs from "@/assets/butterfly-locs.png.asset.json";
+import knotlessNew from "@/assets/service-Knotless.jpg";
+import boxNew from "@/assets/service-Box.jpg";
+import cornrowsNew from "@/assets/service-Cornrows.jpg";
+import stitchNew from "@/assets/service-Stitch.jpg";
 
-import gallery1 from "@/assets/gallery-new-1.png.asset.json";
-import gallery2 from "@/assets/gallery-new-2.png.asset.json";
-import gallery3 from "@/assets/gallery-new-3.png.asset.json";
-import gallery4 from "@/assets/gallery-new-4.png.asset.json";
-import gallery5 from "@/assets/gallery-new-5.png.asset.json";
-import gallery6 from "@/assets/gallery-new-6.png.asset.json";
+import fulaniNew from "@/assets/service-StraightUp.jpg";
+import goddessNew from "@/assets/service-Goddess.jpg";
+import butterflyLocs from "@/assets/service-ButterflyLocs.jpg";
+import kidsNew from "@/assets/service-Kids.jpg";
+
+import gallery1 from "@/assets/gallery1.jpg";
+import gallery2 from "@/assets/gallery2.jpg";
+import gallery3 from "@/assets/gallery3.jpg";
+import gallery4 from "@/assets/gallery4.jpg";
+import gallery5 from "@/assets/gallery5.jpg";
+import gallery6 from "@/assets/gallery6.jpg";
 
 export const WHATSAPP_NUMBER = "27602940113";
 export const WHATSAPP_DISPLAY = "060 294 0113";
-export const INSTAGRAM_URL = "https://www.instagram.com/mamabear_2810/";
+export const INSTAGRAM_URL = "https://www.instagram.com/mamabear_2810?igsh=MWIxYXEwaXJlOG42ZA%3D%3D";
 export const INSTAGRAM_HANDLE = "mamabear_2810";
 export const TIKTOK_URL = "https://www.tiktok.com/@mamabear_2810";
 export const TIKTOK_USERNAME = "@mamabear_2810";
@@ -29,23 +30,23 @@ export interface Service {
 }
 
 export const services: Service[] = [
-  { name: "Knotless Braids", price: "R450", duration: "6 – 8 hrs", image: knotlessNew.url },
-  { name: "Box Braids", price: "R500", duration: "6 – 8 hrs", image: boxNew.url },
-  { name: "Cornrows", price: "R250", duration: "2 – 4 hrs", image: cornrowsNew.url },
-  { name: "Fulani braids", price: "R450", duration: "6 – 9 hrs", image: stitchNew.url },
-  { name: "Straight up", price: "R300", duration: "5 – 8 hrs", image: fulaniNew.url },
-  { name: "Goddess Braids", price: "R450", duration: "6 – 9 hrs", image: goddessNew.url },
-  { name: "Butterfly Locs", price: "R500", duration: "6 – 9 hrs", image: butterflyLocs.url },
-  { name: "Kids Braids", price: "R200", duration: "2 – 4 hrs", image: kidsNew.url },
+  { name: "Knotless Braids", price: "R450", duration: "6 – 8 hrs", image: knotlessNew },
+  { name: "Box Braids", price: "R500", duration: "6 – 8 hrs", image: boxNew},
+  { name: "Cornrows", price: "R250", duration: "2 – 4 hrs", image: cornrowsNew},
+  { name: "Fulani braids", price: "R450", duration: "6 – 9 hrs", image: stitchNew},
+  { name: "Straight up", price: "R300", duration: "5 – 8 hrs", image: fulaniNew},
+  { name: "Goddess Braids", price: "R450", duration: "6 – 9 hrs", image: goddessNew},
+  { name: "Butterfly Locs", price: "R500", duration: "6 – 9 hrs", image: butterflyLocs},
+  { name: "Kids Braids", price: "R200", duration: "2 – 4 hrs", image: kidsNew},
 ];
 
 export const galleryImages = [
-  { src: gallery1.url, alt: "Tribal braids with curly ends and a leopard print scarf" },
-  { src: gallery2.url, alt: "Feed-in cornrows styled into a sleek high ponytail" },
-  { src: gallery3.url, alt: "Short twists with curly ends" },
-  { src: gallery4.url, alt: "Lemonade braids cascading to one side" },
-  { src: gallery5.url, alt: "Intricate freestyle cornrow design, side view" },
-  { src: gallery6.url, alt: "Neat straight-back braids, front view" },
+  { src: gallery1, alt: "Tribal braids with curly ends and a leopard print scarf" },
+  { src: gallery2, alt: "Feed-in cornrows styled into a sleek high ponytail" },
+  { src: gallery3, alt: "Short twists with curly ends" },
+  { src: gallery4, alt: "Lemonade braids cascading to one side" },
+  { src: gallery5, alt: "Intricate freestyle cornrow design, side view" },
+  { src: gallery6, alt: "Neat straight-back braids, front view" },
 ];
 
 export const testimonials = [

@@ -1,12 +1,10 @@
-import heroAsset from "@/assets/hero-nonyameko.png.asset.json";
-
-const heroImage = heroAsset.url;
+import heroAsset from "@/assets/hero-nonyameko.jpg";
 
 export function Hero() {
   return (
     <section id="home" className="relative overflow-hidden bg-cream pt-28 pb-16 sm:pt-32 lg:pt-40 lg:pb-24">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-16">
-        <div className="reveal is-visible relative z-10 min-w-0 max-w-xl">
+      <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 sm:px-8 lg:grid-cols-2 lg:gap-10">
+        <div className="reveal is-visible max-w-[520px] justify-self-end">
           <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-card px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" /> Appointment-based studio
           </span>
@@ -35,7 +33,7 @@ export function Hero() {
         <div className="reveal is-visible">
           <div className="overflow-hidden rounded-[2rem] shadow-card">
             <img
-              src={heroImage}
+              src={heroAsset}
               alt="Woman with beautifully styled neat knotless braids"
               width={1080}
               height={1350}
